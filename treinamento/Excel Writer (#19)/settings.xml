@@ -100,7 +100,7 @@
         <entry key="open_file_after_exec_Internals" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory"/>
     <entry key="node-name" type="xstring" value="Excel Writer"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME POI (Excel) Plug-in"/>
@@ -117,11 +117,11 @@
         <config key="Sheet Input Ports"/>
     </config>
     <entry key="name" type="xstring" value="Excel Writer"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ea7b318f-6464-4e23-a73c-f8654df5adf4"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
