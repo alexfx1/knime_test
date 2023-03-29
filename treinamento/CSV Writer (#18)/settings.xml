@@ -26,7 +26,7 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="D:\Documentos\Trabalho\Xtrategie\treinamento\treinamento_knime.csv"/>
+                    <entry key="path" type="xstring" value="D:\Documentos\Trabalho\Xtrategie\treinamento\dados_tratados\treinamento_knime.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>

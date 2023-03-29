@@ -7,7 +7,7 @@
     </config>
     <config key="model"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
     <entry key="factory" type="xstring" value="org.knime.google.api.sheets.nodes.connector.GoogleSheetsConnectorFactory"/>
     <entry key="node-name" type="xstring" value="Google Sheets Connection"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Google API Nodes"/>
@@ -20,21 +20,16 @@
     <entry key="node-feature-version" type="xstring" value="4.7.3.v202303211209"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Google Sheets Connection"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.google.api.sheets.data.GoogleSheetsConnectionPortObjectSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.google.api.sheets.data.GoogleSheetsConnectionPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Google OAuth 2.0 Authentication %%00010%%00010Authentication Keys: Node (authentication key saved as part of node instance)%%00010%%00010Scopes:%%00010https://www.googleapis.com/auth/spreadsheets.readonly%%00010https://www.googleapis.com/auth/drive.readonly%%00010https://www.googleapis.com/auth/spreadsheets%%00010https://www.googleapis.com/auth/drive.readonly%%00010https://www.googleapis.com/auth/drive.readonly%%00010https://www.googleapis.com/auth/drive%%00010%%00010"/>
-            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="4b14107e-2312-4d9a-860c-0af3ebf09383"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
